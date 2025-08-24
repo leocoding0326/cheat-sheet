@@ -1,0 +1,12 @@
+
+/* Header Section */
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    font-size: 40px;
+    line-height: .4;
+    padding-top: 20px;
+}
