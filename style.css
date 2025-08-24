@@ -1,9 +1,18 @@
+/*Fonts*/
+
+@font-face {
+    font-family: "header font";
+    src: url(./fonts/h1-headers/Kalam-Regular.ttf) format("truetype"),
+         url(./fonts/h1-headers/Kalam-Regular.woff) format("woff"),
+         url(./fonts/h1-headers/Kalam-Regular.woff2) format("woff2");
+
+}
 
 /* Header Section */
 
 header {
     text-align: center;
-    border-bottom: 1px solid lightgray;
+
 }
 
 header h1 {
@@ -12,7 +21,15 @@ header h1 {
     padding-top: 20px;
 }
 
+/* Nav Section */
+
+nav {
+    border-bottom: 1px solid lightgray;
+    border-top : 1px solid lightgray;
+}
+
 nav ul li {
     display: inline;
     padding: 20px 60px;
 }
+
