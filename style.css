@@ -11,3 +11,8 @@ header h1 {
     line-height: .4;
     padding-top: 20px;
 }
+
+nav ul li {
+    display: inline;
+    padding: 20px 60px;
+}
