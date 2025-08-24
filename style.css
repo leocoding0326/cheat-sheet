@@ -15,6 +15,11 @@
          url(./fonts/subheaders/MarckScript-Regular.woff2) format("woff2");        
 }
 
+/* Universal Section*/
+
+h2 {
+    font-family: "header font", serif;
+}
 
 /* Header Section */
 
@@ -39,7 +44,7 @@ nav {
     border-bottom: 1px solid lightgray;
     border-top : 1px solid lightgray;
     background-color: rgba(55, 185, 229, 0.105);
-    position: fixed;
+    position: sticky;
     top: 0px;
     z-index: 1000;
 }
@@ -48,6 +53,10 @@ nav ul li {
     display: inline;
     padding: 20px 60px;
 }
+
+
+
+/*html Section*/
 
 #html-tables {
     text-align: center;
