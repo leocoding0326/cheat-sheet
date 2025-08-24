@@ -8,6 +8,14 @@
 
 }
 
+@font-face {
+    font-family: "quote font";
+    src: url(./fonts/subheaders/MarckScript-Regular.ttf) format("truetype"),
+         url(./fonts/subheaders/MarckScript-Regular.woff) format("woff"),
+         url(./fonts/subheaders/MarckScript-Regular.woff2) format("woff2");        
+}
+
+
 /* Header Section */
 
 header {
@@ -19,6 +27,7 @@ header h1 {
     font-size: 40px;
     line-height: .4;
     padding-top: 20px;
+    font-family: "header font", sans-serif;
 }
 
 /* Nav Section */
