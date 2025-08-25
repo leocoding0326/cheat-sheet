@@ -21,6 +21,16 @@ h2 {
     font-family: "header font", serif;
 }
 
+table {
+    width: 60%;
+    margin: 10px auto;
+    border-collapse: collapse;
+}
+table, th, td {
+  border: 1px solid lightgray;
+  padding: 10px 20px;
+}
+
 /* Header Section */
 
 header {
@@ -56,9 +66,10 @@ nav ul li {
 
 
 
-/*html Section*/
+/*html table Section*/
 
 #html-tables {
     text-align: center;
     padding: 40px;
 }
+
