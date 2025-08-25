@@ -22,7 +22,7 @@ h2 {
 }
 
 table {
-    width: 60%;
+    width: 80%;
     margin: 10px auto;
     border-collapse: collapse;
 }
@@ -31,6 +31,9 @@ table, th, td {
   padding: 10px 20px;
 }
 
+span {
+    color: blue;
+}
 /* Header Section */
 
 header {
