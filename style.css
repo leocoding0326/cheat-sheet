@@ -38,8 +38,6 @@ span {
 
 .table-subheading {
     background-color: rgba(55, 185, 229, 0.105);
-    border-right: 1px solid lightgray;
-    border-left: 1px solid lightgray;
     font-size: 18px;
 }
 
