@@ -12,9 +12,10 @@
         <h3>" Never stop learning, because life never stops teaching "</h3>
         <nav>
             <ul>
-                <li><a href="">HTML5 Tables</a></li>
-                <li><a href="">Box Model CSS</a></li>
-                <li><a href="">CSS Common Chaining Properties</a></li>
+                <li><a href="#text-tag">Text Tags</a></li>
+                <li><a href="#form">Formating</a></li>
+                <li><a href="#img">Images</a></li>
+                <li><a href="#link">Links</a></li>
             </ul>
         </nav>
     </header>
@@ -33,7 +34,7 @@
 
             <tbody>
                 <tr>
-                    <th colspan="4" class="table-subheading">Text Tags</th>
+                    <th colspan="4" class="table-subheading" id="text-tag">Text Tags</th>
                     
                 </tr>
                 <tr>
@@ -86,6 +87,9 @@
                     <td>Yes</td>
                 </tr>
                 <tr>
+                    <th colspan="4" class="table-subheading" id="form">Formating</th>
+                </tr>
+                <tr>
                     <td>Used to format block content with CSS</td>
                     <td><span>&lt;div&gt;</span></td>
                     <td><span>&lt;div&gt;</span> This is a block with <strong>h1 p</strong> and other elements inside <span>&lt;/div&gt;</span></td>
@@ -115,8 +119,45 @@
                     <td><span>&lt;li&gt;</span>-This is<span>&lt;/li&gt;</span> <br> <span>&lt;li&gt;</span>-an unordered list<span>&lt;/li&gt;</span></td>
                     <td>Yes</td>
                 </tr>
-            </tbody>            
+                <tr>
+                    <th colspan="4" class="table-subheading" id="img">Images</th>
+                </tr>
+                <tr>
+                    <td>Adds image; it is a separate file located at the URL</td>
+                    <td><span>&lt; img src = "URL"/ &gt;</span></td>
+                    <td><span>&lt; img src = "https://this-is-an-image-link.com/ &gt;</span></td>
+                    <td>No</td>
+                </tr>
+                <tr>
+                    <th colspan="4" class="table-subheading" id="link">Links</th>
+                </tr>
+                <tr>
+                    <td>Creates a hyperlink to a Uniform Resource Locator</td>
+                    <td><span>&lt; a &gt;</span></td>
+                    <td><span>&lt; a href = "URL" &gt;</span> Clickable Text<span>&lt; a/&gt;</span></td>
+                    <td>Yes</td>
+                </tr>
+                <tr>
+                    <td>Creates a hyperlink to an email address</td>
+                    <td><span>&lt; a &gt;</span></td>
+                    <td><span>&lt; a href = "mailto: email address" &gt;</span> Clickable Text<span>&lt; a/&gt;</span></td>
+                    <td>Yes</td>
+                </tr>
+                <tr>
+                    <td>Creates a target location within a document</td>
+                    <td><span>&lt; a &gt;</span></td>
+                    <td><span>&lt; a name = "NAME" &gt;</span> Clickable Text<span>&lt; a/&gt;</span></td>
+                    <td>Yes</td>
+                </tr>
+                <tr>
+                    <td>Creates a target location within a document</td>
+                    <td><span>&lt; a &gt;</span></td>
+                    <td><span>&lt; a href = "#NAME" &gt;</span> Clickable Text<span>&lt; a/&gt;</span></td>
+                    <td>Yes</td>
+                </tr>
+            </tbody>        
         </table>
+        <p><em>I know that i missed some tags, the idea was to recoppilate the main ones that i'll use on a daily.</em></p>
     </section>
 </body>
 </html>
