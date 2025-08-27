@@ -69,17 +69,26 @@ header h3 {
 /* Nav Section */
 
 nav {
-    border-bottom: 1px solid lightgray;
-    border-top : 1px solid lightgray;
+    height: 20px;
+}
+
+button {
+    padding: 10px;
+    margin: auto 50px;
     background-color: rgba(55, 185, 229, 0.105);
+    border-radius: 20px;
+    font-size: 18px;
+    width: 120px;
+    border: none;
+    height: 40px;
+    position: relative;
 }
 
-nav ul li {
-    display: inline;
-    padding: 20px 60px;
+button:hover {
+    transform: scale(1.1);
+    color: lightslategrey;
+    cursor: pointer;
 }
-
-
 
 /*html table Section*/
 
